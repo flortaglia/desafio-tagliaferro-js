@@ -1,6 +1,6 @@
 # desafio-tagliaferro-js
 
-Buenos días Miguel te envio el desafio 2 - condicional if - donde el usuario tiene que ingresar un tipo de operación a realizar. Puede hacerlo en mayúscula y minúscula.
+Buenos días Miguel te envio el desafio 3 - ciclo while - donde el usuario tiene que ingresar los productos de una lista de compras. Para salir tiene que escribir ESC en mayúscula o minúscula.
 
 Saludos
 Florencia
