@@ -32,7 +32,7 @@
 
 // Desafio 3
 
-let list = prompt("Ingresa los productos de la lista de compras");
+let list = prompt("Ingresa los productos de la lista de compras. Cuando termines escribi esc.");
 list 	 = list.toLowerCase();
 let shoppingList = '';
 while (list != 'esc') {
