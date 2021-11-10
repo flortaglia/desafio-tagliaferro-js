@@ -6,7 +6,8 @@ for (let i = 1; i <= largoArray; i++) {
 	numeros.push(Number(prompt(`Ingrese el valor ${i}`)));	
 }
 const ordenados=numeros.sort();
-console.log(ordenados);
+alert(ordenados.join(`,`));
+
 	
 
 
