@@ -1,3 +1,21 @@
+// Desafío Complementario Clase 6
+
+const numeros=[];
+let largoArray=Number(prompt("Ingrese la cantidad de valores a ordenar:"));
+for (let i = 1; i <= largoArray; i++) {
+	numeros.push(Number(prompt(`Ingrese el valor ${i}`)));	
+}
+const ordenados=numeros.sort();
+console.log(ordenados);
+	
+
+
+
+
+
+
+
+
 // let edad = Number(prompt("Ingrese su edad: ")) ;
 // let fechaNacimiento = 2021 - edad;
 // let salida = "El año de tu nacimiento es: " + fechaNacimiento;
@@ -32,13 +50,13 @@
 
 // Desafio 3
 
-let list = prompt("Ingresa los productos de la lista de compras. Cuando termines escribi esc.");
-list 	 = list.toLowerCase();
-let shoppingList = '';
-while (list != 'esc') {
-    shoppingList += list +"\n";
-	list 		  = prompt("Ingresa los productos de la lista de compras");
-	list 		  = list.toLowerCase();
-}
-alert(shoppingList);
+// let list = prompt("Ingresa los productos de la lista de compras. Cuando termines escribi esc.");
+// list 	 = list.toLowerCase();
+// let shoppingList = '';
+// while (list != 'esc') {
+//     shoppingList += list +"\n";
+// 	list 		  = prompt("Ingresa los productos de la lista de compras");
+// 	list 		  = list.toLowerCase();
+// }
+// alert(shoppingList);
 
