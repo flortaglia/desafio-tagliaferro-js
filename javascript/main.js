@@ -1,5 +1,5 @@
 // Desafío Complementario Clase 6
-
+//ordenar un array de numeros ingresados por el usuario
 const numeros=[];
 let largoArray=Number(prompt("Ingrese la cantidad de valores a ordenar:"));
 for (let i = 1; i <= largoArray; i++) {
